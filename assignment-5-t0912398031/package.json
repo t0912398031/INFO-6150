@@ -1,0 +1,28 @@
+{
+  "name": "assignment-5-t0912398031",
+  "version": "1.0.0",
+  "description": "This is an assignment for JavaScript that implements:\r 1. Binary Search",
+  "main": "assignment5.js",
+  "dependencies": {},
+  "devDependencies": {
+    "esdoc": "^1.1.0",
+    "esdoc-standard-plugin": "^1.0.0"
+  },
+  "scripts":  {
+"build": "npm install esdoc esdoc-standard-plugin",
+"test": "echo \"Error: no test specified\" && exit 1",
+"lint": "eslint app",
+"doc": "esdoc -c esdoc.json",
+"postinstall": "npm run build && npm run doc"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neu-mis-info6150-spring-2019/assignment-5-t0912398031.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neu-mis-info6150-spring-2019/assignment-5-t0912398031/issues"
+  },
+  "homepage": "https://github.com/neu-mis-info6150-spring-2019/assignment-5-t0912398031#readme"
+}

@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div id="form">Form</div>
+    <div class = "height1" id = "bg1040">1040</div>
+
+    <div class = "height1, column">
+        <br>
+        <section>Department of the Treasury—Internal Revenue Service (99)</section>
+        <section id = "font1">U.S. Individual Income Tax Return</section>
+    </div>
+
+    <div class = "height1" id = "bg2018">2018</div>
+    <div class = "height1"><br><br>OMB No. 1545-0074</div>
+    <div class = "height1"><br><br>IRS Use Only—Do not write or staple in this space.</div>
+
+    <form action="">
+        <div class = "filling" id = "fillingWidth">
+            Filing status:
+            <input type="checkbox" name="Single" value="Single"> Single 
+            <input type="checkbox" name="jointly" value="jointly"> Married filing jointly 
+            <input type="checkbox" name="separately" value="separately"> Married filing separately 
+            <input type="checkbox" name="household" value="household"> Head of household  
+            <input type="checkbox" name="widow" value="widow" checked> Qualifying widow(er) 
+        </div>
+        <div class = "filling"> 
+            <input id = "w2" name="status" type="text" required pattern="[A-Z][A-Za-z' -]+">
+        </div>
+        <br>
+        <div class="words">
+            Your first name and initial<br>
+            <input id = "w1" name="firstname" type="text" required pattern="[A-Z][A-Za-z' -]+"><!-- Character validation -->
+        </div>
+        <div class="words">
+            Last name<br>
+            <input id = "w1" name="lastname" type="text" required pattern="[A-Z][A-Za-z' -]+">
+        </div>
+        <div class="words">
+            Your social security number<br>
+            <input id = "w2"name="SSN" type="number"  required pattern="^\d{3}-\d{2}-\d{4}$"><!-- SSN validation -->
+        </div>
+        <br>
+        <div id = "w3">
+            Your standard deduction:
+            <input type="checkbox" name="dependent" value="dependent"> Someone can claim you as a dependent
+            <input type="checkbox" name="born" value="born"> You were born before January 2, 1954
+            <input type="checkbox" name="blind" value="blind"> You are blind
+        </div>
+        <br>
+        <div class="words">
+            If joint return, spouse's first name and initial<br>
+            <input id = "w1" name="firstname" type="text" required pattern="[A-Z][A-Za-z' -]+">
+        </div>
+        <div class="words">
+            Last name<br>
+            <input id = "w1" name="lastname" type="text" required pattern="[A-Z][A-Za-z' -]+">
+        </div>
+        <div class="words">
+            Spouse’s social security number<br>
+            <input id = "w2" name="SSN" type="number" required pattern="^\d{3}-\d{2}-\d{4}$">
+        </div>
+        <div id = "w4">
+            Spouse standard deduction:
+            <input type="checkbox" name="dependent" value="dependent"> Someone can claim your spouse as a dependent
+            <input type="checkbox" name="born" value="born"> Spouse was born before January 2, 1954 <br>
+            <input type="checkbox" name="blind" value="blind"> Spouse is blind &emsp; &emsp; &emsp;
+            <input type="checkbox" name="return" value="return"> Spouse itemizes on a separate return or you were dual-status aliens
+        </div>
+        <div id = "w5">
+            <input type="checkbox" name="healthcare" value="healthcare"> Full-year health care coverage <br> &emsp;or exempt (see inst.)
+        </div>
+        <br>
+        <div class="words">
+            Home address (number and street). If you have a P.O. box, see instructions.<br>
+            <input id = "w6" name="firstname" type="text" required pattern="[A-Z][A-Za-z' -]+">
+        </div>
+        <div class="words">
+            <section id = "font4">Apt. no.</section>
+            <input id = "w7" name="firstname" type="number" required pattern="[0-9]"><!-- Number validation -->
+        </div>
+        <div id = "w9">
+            Presidential Election Campaign<br>
+            (see inst.)
+            <input type="checkbox" name="You" value="You"> You
+            <input type="checkbox" name="Spouse" value="Spouse"> Spouse
+        </div>
+        <div class="words" id = "w4">
+            City, town or post office, state, and ZIP code. If you have a foreign address, attach Schedule 6.<br>
+        <input id = "w4"name="firstname" type="text" required pattern="[A-Z][A-Za-z' -]+">
+        </div>
+        <div id = "w8">
+            If more than four dependents,<br> see inst. and ✓ here ▶
+        <input type="checkbox" name="four" value="four">
+        </div>
+        <br>
+        <div>
+            <section class = "height2">
+                <section id = "font3">Dependents (see instructions):</section>
+                <section id = "font5">(1) First name &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Last name</section>
+            </section>
+            <input id = "w1"name="firstname" type="text" required pattern="[A-Z][A-Za-z' -]+"><br>
+            <input id = "w1"name="firstname" type="text" required pattern="[A-Z][A-Za-z' -]+"><br>
+            <input id = "w1"name="firstname" type="text" required pattern="[A-Z][A-Za-z' -]+"><br>
+            <input id = "w1"name="firstname" type="text" required pattern="[A-Z][A-Za-z' -]+">
+        </div>
+        
+        <div class = "font2">
+            <section class = "height2">
+                (2) Social security number<br><br>
+            </section>
+            <input id = "w10" name="SSN" type="number" required pattern="^\d{3}-\d{2}-\d{4}$"><br>
+            <input id = "w10" name="SSN" type="number" required pattern="^\d{3}-\d{2}-\d{4}$"><br>
+            <input id = "w10" name="SSN" type="number" required pattern="^\d{3}-\d{2}-\d{4}$"><br>
+            <input id = "w10" name="SSN" type="number" required pattern="^\d{3}-\d{2}-\d{4}$">
+        
+        </div>
+        <div class = "font2">
+            <section class = "height2">
+                (3) Relationship to you<br><br>
+            </section>
+            <input id = "w10" name="relationship" type="text" required pattern="[A-Z][A-Za-z' -]+"><br>
+            <input id = "w10" name="relationship" type="text" required pattern="[A-Z][A-Za-z' -]+"><br>
+            <input id = "w10" name="relationship" type="text" required pattern="[A-Z][A-Za-z' -]+"><br>
+            <input id = "w10" name="relationship" type="text" required pattern="[A-Z][A-Za-z' -]+">
+        </div>
+        <div class = "font2" id = "w11">
+            <div class = "height2" id = "w12">
+                &emsp;(4) ✓ if qualifies for (see inst.):<br>
+                &emsp;Child tax credit &emsp;&emsp;&emsp;&emsp; Credit for other dependents
+            </div>
+            <div class = "checkbox">
+                <input type="checkbox" name="Child" value="Child">
+            </div>
+            <div class = "checkbox">
+                <input type="checkbox" name="Child" value="Child">
+            </div>
+            <br>
+            <div class = "checkbox">
+                <input type="checkbox" name="Child" value="Child">
+            </div>
+            <div class = "checkbox">
+                <input type="checkbox" name="Child" value="Child">
+            </div>
+            <br>
+            <div class = "checkbox">
+                <input type="checkbox" name="Child" value="Child">
+            </div>
+            <div class = "checkbox">
+                <input type="checkbox" name="Child" value="Child">
+            </div>
+            <br>
+            <div class = "checkbox" id = "checkbox">
+                <input type="checkbox" name="Child" value="Child">
+            </div>
+            <div class = "checkbox" id = "checkbox">
+                <input type="checkbox" name="Child" value="Child">
+            </div>
+        </div>
+
+        <br>
+<!-- Sign here -->
+        <div id = "box4">
+            <span id = "font1">Sign <br>Here</span><br>
+            <span>Joint return?<br>See instructions.<br> Keep a copy for <br>your records.</span>
+        </div>
+        <div id = "w13">
+            <span id = "font6">Under penalties of perjury, I declare that I have examined this return and accompanying schedules and statements, and to the best of my knowledge and belief, they are true,<br> correct, and complete. Declaration of preparer (other than taxpayer) is based on all information of which preparer has any knowledge.</span>
+            <br>
+            <img id = "arrow" src="arrow.jpg" alt="Arrow">
+            <div id = "boxSigniture">
+                <section class = "column1">
+                    <div class ="box3" id = "w14">
+                        Your signature<br>
+                        <input  id = "w24" name="firstname" type="text" required pattern="[A-Z][A-Za-z' -]+">
+                    </div>
+                    <div class ="box3" id = "w15">
+                        Date
+                        <input  id = "w23" name="firstname" type="date">
+                    </div>
+                    <div class ="box3">
+                        Your occupation<br>
+                        <input  id = "w16" name="firstname" type="text" required pattern="[A-Z][A-Za-z' -]+">
+                    </div>
+                    <div class ="box3" id = "b17">
+                        If the IRS sent you an Identity Protection<br> PIN, enter it here (see inst.)
+                        <input name="firstname" type="number" required pattern="\d{6}"><!-- 6 digit validation -->
+                    </div>
+                </section>
+                <br>
+                <section class = "column1">
+                    <div class ="box3 b1" id = "w14">
+                        Spouse’s signature. If a joint return, <b>both</b> must sign.<br>
+                        <input  id = "w24" name="firstname" type="text" required pattern="[A-Z][A-Za-z' -]+">
+                    </div>
+                    <div class ="box3 b1" id = "w15">
+                        Date
+                        <input  id = "w23" name="firstname" type="date">
+                    </div>
+                    <div class ="box3 b1">
+                        Spouse’s occupation<br>
+                        <input  id = "w16" name="firstname" type="text" required pattern="[A-Z][A-Za-z' -]+">
+                    </div>
+                    <div class ="box3 b1" id = "b17">
+                        If the IRS sent you an Identity Protection<br> PIN, enter it here (see inst.)
+                        <input name="firstname" type="text" required pattern="\d{6}">
+                    </div>
+                </section>
+            </div>
+        </div>
+        
+        <br>
+
+<!-- Paid prepare -->
+        <div id = "box2">
+            <span id = "font1">Paid <br>Preparer <br>Use Only</span>
+        </div>
+        <div id = "boxPaid">
+            <div class ="box3">
+                Preparer’s name<br>
+                <input name="firstname" type="text" required pattern="[A-Z][A-Za-z' -]+">
+            </div>
+            <div class ="box3" id = "w18">
+                Preparer’s signature
+                <input  id = "w25" name="firstname" type="text" required pattern="[A-Z][A-Za-z' -]+">
+            </div>
+            <div class ="box3">
+                PTIN<br>
+                <input name="firstname" type="number" required pattern="[0-9]">
+            </div>
+            <div class ="box3">
+                Firm’s EIN<br>
+                <input name="firstname" type="number" required pattern="[0-9]">
+            </div>
+            <div class ="box3 h4" id = "boxFloat">                   
+                    Check if:<br>
+                    <input type="checkbox" name="3rd" value="3rd">3rd Party Designee<br>
+                    <input type="checkbox" name="Self" value="Self">Self-employed          
+            </div>
+            <br>
+            <div class ="box3" id = "h2">
+                Firm’s name ▶
+                <input id = "w19" name="firstname" type="text" required pattern="[A-Z][A-Za-z' -]+">
+            </div>
+            <div class ="box3" id = "h2">
+                Phone no.
+                <input id = "w20"name="firstname" type="number" required pattern="[0-9]">
+            </div>
+            <br>
+            <div class ="box3 r1" id = "h2">
+                Firm’s address ▶
+                <input id = "w21" name="firstname" type="text" required pattern="[A-Z][A-Za-z' -]+">
+            </div>
+            
+        </div>
+        <br>
+        <b>For Disclosure, Privacy Act, and Paperwork Reduction Act Notice, see separate instructions.</b>
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        Cat. No. 11320B
+        &emsp;&emsp;&emsp;&emsp;&emsp;
+        Form <b>1040</b> (2018)
+        <br><br>   
+        <br><br>
+    
+
+
+<!-- Page 2 -->
+Form 1040 (2018)
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+&emsp;&emsp;&emsp;&emsp;&emsp;
+        Page 2
+<br>
+<div id = "page2">
+    <div class = "b2 box5">
+        <p id = "font7">Attach Form(s)<br> W-2. Also attach<br> Form(s) W-2G and<br> 1099-R if tax was<br> withheld.</p>
+        <br>
+        <div id = "box12"><b>standard Deduction for—</b>
+            <ul id = "font9">
+                <li>Single or married filing separately, $12,000</li>
+                <li>Married filing jointly or Qualifying widow(er), $24,000</li>
+                <li>Head of household, $18,000</li>
+                <li>If you checked any box under Standard deduction, see instructions.</li>                    　
+            </ul>
+                
+        </div>
+    </div>
+    <div class = "b2 box6 font8">
+            <div class = "b3 bold">1</div>
+            <div class = "p2content">
+                Wages, salaries, tips, etc. Attach Form(s) W-2 <h7 class = "space">. . . . . . . . . . . . . . . . </h7><br>
+            </div><br>
+            <div class = "b3 bold">2a</div>
+            <div class = "p2content">
+                Tax-exempt interest . . . 
+            </div>
+            <section id = "m2">
+                <div class = "num bold">2a </div>
+                <div class = "text3">
+                    <input name="firstname" type="number" required pattern="[0-9]">
+                </div>
+                <div class = "text2">
+                    <input class = "w21" name="firstname" type="number" required pattern="[0-9]"><br>
+                </div>
+            </section>
+            &emsp;&emsp;&emsp;
+            <b>b</b> Taxable interest <h7 class = "space">. . . </h7><br>
+    
+            <div class = "b3 bold">3a</div>
+            <div class = "p2content">
+                Qualified dividends . . .
+            </div> 
+            <section id = "m3">
+                <div class = "num bold">3a </div>
+                <div class = "text3">
+                    <input name="firstname" type="number" required pattern="[0-9]">
+                </div>
+                <div class = "text2">
+                    <input class = "w21" name="firstname" type="number" required pattern="[0-9]"><br>
+                </div>
+            </section>
+            &emsp;&emsp;&emsp;
+            <b>b</b> Ordinary dividends <h7 class = "space">. .</h7> <br>
+    
+            <div class = "b3 bold">4a</div>
+            <div class = "p2content">
+                IRAs, pensions, and annuities . 
+            </div>
+            <div class = "num bold">4a </div>
+            <div class = "text3">
+                <input name="firstname" type="number" required pattern="[0-9]">
+            </div>
+            <div class = "text2">
+                <input class = "w21" name="firstname" type="number" required pattern="[0-9]"><br>
+            </div>
+            &emsp;&emsp;&emsp;
+            <b>b</b> Taxable amount <h7 class = "space">. . . </h7><br>
+    
+            <div class = "b3 bold">5a</div>
+            <div class = "p2content">
+                Social security benefits . . 
+            </div>
+            <section id = "m4">
+                <div class = "num bold">5a </div>
+                <div class = "text3" id = "b4">
+                    <input id = "m8" name="firstname" type="number" required pattern="[0-9]">
+                </div>
+                <div class = "text2">
+                    <input class = "w21" name="firstname" type="number" required pattern="[0-9]"><br>
+                </div>
+            </section>
+            &emsp;&emsp;&emsp;
+            <b>b</b> Taxable amount <h7 class = "space">. . . </h7><br>
+    
+            <div class = "b3 bold">6</div>
+            <div class = "p2content">
+                Total income. Add lines 1 through 5. Add any amount from Schedule 1, line 22
+            </div>  
+            <input class = "w22" name="firstname" type="number" required pattern="[0-9]">
+            <h7 class = "space">. . . . . </h7><br>
+
+            <div class = "b3 bold">7</div>
+            <div class = "p2content" id = "content7">
+                Adjusted gross income. If you have no adjustments to income, enter the amount from line 6; otherwise,<br> subtract Schedule 1, line 36, from line 6 <h7 class = "space">. . . . . . . . . . . . . . . . . . <br>
+            </div><br>
+            <div class = "b3 bold" id = "num8">8</div>
+            <div class = "p2content">
+                <b>Standard deduction or itemized deductions (from Schedule A)</b> <h7 class = "space">. . . . . . . . . . . </h7><br>
+            </div>
+            <br>
+            <div class = "b3 bold">9</div>
+            <div class = "p2content">
+                Qualified business income deduction (see instructions) <h7 class = "space">. . . . . . . . . . . . . . </h7><br>
+            </div>
+            <br>
+            <div class = "b3 bold">10</div>
+            <div class = "p2content">
+                Taxable income. Subtract lines 8 and 9 from line 7. If zero or less, enter -0- <h7 class = "space">. . . . . . . . . </h7><br>
+            </div>
+            <br>
+            <div class = "b3 bold">11</div>
+            <div class = "p2content" id = "content7">
+                <b>a</b> Tax (see inst.)
+                <input class = "w22" name="11txt1" type="number" required pattern="[0-9]">
+                (check if any from: 
+                <b>1 </b>
+                <input type="checkbox" name="Child" value="Child">
+                Form(s) 8814 &emsp;
+                <b>2 </b>
+                <input type="checkbox" name="Child" value="Child">Form 4972&emsp;
+                <b>3 </b>
+                <input type="checkbox" name="Child" value="Child">
+                <input class = "w22" name="11txt2" type="text" required pattern="[A-Z][A-Za-z' -]+">        
+                )<br>
+                <b>b</b> Add any amount from Schedule 2 and check here . . . . . . . . . . . . 
+            
+                <section id = "m5">
+                    ▶<input type="checkbox" name="Child" value="Child">
+                </section>         
+            </div><br>
+    
+            <div class = "b3 bold">12</div>
+            <div class = "p2content">
+                <b>a</b> Child tax credit/credit for other dependents 
+            
+                <input id = "w26" name="12txt" type="text" required pattern="[A-Z][A-Za-z' -]+">
+                <b>b Add</b> any amount from Schedule 3 and check here 
+
+                <section id = "m6">
+                        ▶<input type="checkbox" name="Child" value="Child">
+                </section>
+            </div>
+            <div class = "b3 bold">13</div>
+            <div class = "p2content">
+                Subtract line 12 from line 11. If zero or less, enter -0- <h7 class = "space">. . . . . . . . . . . . . . </h7>
+            </div>
+            <br>
+    
+            <div class = "b3 bold">14</div>
+            <div class = "p2content">
+                Other taxes. Attach Schedule 4 <h7 class = "space">. . . . . . . . . . . . . . . . . . . . </h7>
+            </div><br>
+    
+            <div class = "b3">15</div>
+            <div class = "p2content">
+                Total tax. Add lines 13 and 14 <h7 class = "space">. . . . . . . . . . . . . . . . . . . . </h7>
+            </div><br>
+    
+            <div class = "b3">16</div>
+            <div class = "p2content">
+                Federal income tax withheld from Forms W-2 and 1099 <h7 class = "space">. . . . . . . . . . . . . . </h7>
+            </div><br>
+    
+            <div class = "b3">17</div>
+            <div class = "p2content" id = "content7">
+                Refundable credits: <b>a</b> EIC (see inst.) 
+                <input class = "w22" name="firstname" type="number" required pattern="[0-9]">
+                <b>b</b> Sch. 8812 
+                <input class = "w22" name="firstname" type="number" required pattern="[0-9]">
+                <b>c</b> Form 8863
+                <input class = "w22" name="firstname" type="number" required pattern="[0-9]"><br>
+                <b>Add</b> any amount from Schedule 5
+                <input class = "w22" name="firstname" type="number" required pattern="[0-9]">
+                <h7 class = "space">. . . . . . . . . . . . . . . . </h7>
+            </div><br>
+    
+            <div class = "b3">18</div>
+            <div class = "p2content">
+                Add lines 16 and 17. These are your total payments <h7 class = "space">. . . . . . . . . . . . . . . </h7>
+            </div>
+    </div>
+
+<!-- right side text field -->
+
+
+    <div class = "b2 box7">
+            <div class = "num">1</div>
+            <div class = "text1">
+                <input class = "m1" name="firstname" type="number" required pattern="[0-9]">
+            </div>
+            <div class = "text2">
+                <input class = "w21" name="firstname" type="number" required pattern="[0-9]"><br>
+            </div>
+
+            <div class = "num">2b</div>
+            <div class = "text1">
+                <input class = "m1" name="firstname" type="number" required pattern="[0-9]">
+            </div>
+            <div class = "text2">
+                <input class = "w21" name="firstname" type="number" required pattern="[0-9]"><br>
+            </div>
+
+            <div class = "num">3b</div>
+            <div class = "text1">
+                <input class = "m1" name="firstname" type="number" required pattern="[0-9]">
+            </div>
+            <div class = "text2">
+                <input class = "w21" name="firstname" type="number" required pattern="[0-9]"><br>
+            </div>
+
+            <div class = "num">4b</div>
+            <div class = "text1">
+                <input class = "m1" name="firstname" type="number" required pattern="[0-9]">
+            </div>
+            <div class = "text2">
+                <input class = "w21" name="firstname" type="number" required pattern="[0-9]"><br>
+            </div>
+
+            <div class = "num">5b</div>
+            <div class = "text1">
+                <input class = "m1" name="firstname" type="number" required pattern="[0-9]">
+            </div>
+            <div class = "text2">
+                <input class = "w21" name="firstname" type="number" required pattern="[0-9]"><br>
+            </div>
+
+            <div class = "num">6</div>
+            <div class = "text1">
+                <input class = "m1" name="firstname" type="number" required pattern="[0-9]">
+            </div>
+            <div class = "text2">
+                <input class = "w21" name="firstname" type="number" required pattern="[0-9]"><br>
+            </div>
+
+            <div id = "num7">7</div>
+            <div id = "textfield7">
+                <input class = "m1" name="firstname" type="number" required pattern="[0-9]">
+            </div>
+            <div id = "text7">
+                <input class = "w21" name="firstname" type="number" required pattern="[0-9]"><br>
+            </div>
+
+            <div class = "num">8</div>
+            <div class = "text1">
+                <input class = "m1" name="firstname" type="number" required pattern="[0-9]">
+            </div>
+            <div class = "text2">
+                <input class = "w21" name="firstname" type="number" required pattern="[0-9]"><br>
+            </div>
+
+            <div class = "num">9</div>
+            <div class = "text1">
+                <input class = "m1" name="firstname" type="number" required pattern="[0-9]">
+            </div>
+            <div class = "text2">
+                <input class = "w21" name="firstname" type="number" required pattern="[0-9]"><br>
+            </div>
+
+            <div class = "num">10</div>
+            <div class = "text1">
+                <input class = "m1" name="firstname" type="text" required pattern="[0-9]">
+            </div>
+            <div class = "text2">
+                <input class = "w21" name="firstname" type="number" required pattern="[0-9]"><br>
+            </div>
+
+            <div id = "num7">11</div>
+            <div id = "textfield7">
+                <input class = "m1" name="firstname" type="number" required pattern="[0-9]">
+            </div>
+            <div id = "text7">
+                <input class = "w21" name="firstname" type="number" required pattern="[0-9]"><br>
+            </div>
+
+            <div class = "num">12</div>
+            <div class = "text1">
+                <input class = "m1" name="firstname" type="number" required pattern="[0-9]">
+            </div>
+            <div class = "text2">
+                <input class = "w21" name="firstname" type="number" required pattern="[0-9]"><br>
+            </div>
+
+            <div class = "num">13</div>
+            <div class = "text1">
+                <input class = "m1" name="firstname" type="number" required pattern="[0-9]">
+            </div>
+            <div class = "text2">
+                <input class = "w21" name="firstname" type="number" required pattern="[0-9]"><br>
+            </div>
+
+            <div class = "num">14</div>
+            <div class = "text1">
+                <input class = "m1" name="firstname" type="number" required pattern="[0-9]">
+            </div>
+            <div class = "text2">
+                <input class = "w21" name="firstname" type="number" required pattern="[0-9]"><br>
+            </div>
+
+            <div class = "num">15</div>
+            <div class = "text1">
+                <input class = "m1" name="firstname" type="number" required pattern="[0-9]">
+            </div>
+            <div class = "text2">
+                <input class = "w21" name="firstname" type="number" required pattern="[0-9]"><br>
+            </div>
+
+            <div class = "num">16</div>
+            <div class = "text1">
+                <input class = "m1" name="firstname" type="number" required pattern="[0-9]">
+            </div>
+            <div class = "text2">
+                <input class = "w21" name="firstname" type="number" required pattern="[0-9]"><br>
+            </div>
+
+            <div id = "num7">17</div>
+            <div id = "textfield7">
+                <input class = "m1" name="firstname" type="number" required pattern="[0-9]">
+            </div>
+            <div id = "text7">
+                <input class = "w21" name="firstname" type="number" required pattern="[0-9]"><br>
+            </div>
+
+            <div class = "num">18</div>
+            <div class = "text1">
+                <input class = "m1" name="firstname" type="number" required pattern="[0-9]">
+            </div>
+            <div class = "text2">
+                <input class = "w21" name="firstname" type="number" required pattern="[0-9]"><br>
+            </div>
+
+            <div class = "num">19</div>
+            <div class = "text1">
+                <input class = "m1" name="firstname" type="number" required pattern="[0-9]">
+            </div>
+            <div class = "text2">
+                <input class = "w21" name="firstname" type="number" required pattern="[0-9]"><br>
+            </div>
+
+            <div class = "num">20a</div>
+            <div class = "text1">
+                <input class = "m1" name="firstname" type="number" required pattern="[0-9]">
+            </div>
+            <div class = "text2">
+                <input class = "w21" name="firstname" type="number" required pattern="[0-9]"><br>
+            </div>
+
+            <div class = "num num20" ></div>
+            <div class = "w30">
+                <!-- <input class = "m1" name="firstname" type="number" required pattern="[0-9]"> -->
+            </div>
+            <div id = "w31">
+                <!-- <input class = "w21" name="firstname" type="number" required pattern="[0-9]"><br> -->
+            </div>
+            <br>
+
+            <div class = "num">22</div>
+            <div class = "text1">
+                <input class = "m1" name="firstname" type="number" required pattern="[0-9]">
+            </div>
+            <div class = "text2">
+                <input class = "w21" name="firstname" type="number" required pattern="[0-9]"><br>
+            </div>
+
+            <div id = "empty"></div>
+    </div>
+
+
+
+    <!-- Refund -->
+
+    <div class = "b2 box8">
+        <p id = "font10"><b>Refund</b></p>
+        <p id = "font7">Direct deposit?<br>
+                See instructions.</p>
+    </div>
+    <div class = "b2 box9">
+
+            <div class = "b3">19</div>
+            <div class = "p2content">
+                If line 18 is more than line 15, subtract line 15 from line 18. This is the amount you overpaid . . . .
+            </div><br>
+
+            <div class = "b3">20a </div>
+            <div class = "p2content">
+                Amount of line 19 you want refunded to you. If Form 8888 is attached, check here . . . . 
+                
+                <section id = "m7">
+                        ▶<input type="checkbox" name="Child" value="Child">
+                </section>   
+            </div><br>
+
+            <div class = "b3">▶ b</div>
+            <div class = "p2content">
+                Routing number <input id = "rnum"name="firstname" type="number" required pattern="\d{9}" placeholder="|____|____|____|____|____|____|____|____|____|">
+                ▶ c Type: 
+                <input type="checkbox" name="Child" value="Child">Checking 
+                <input type="checkbox" name="Child" value="Child">Savings
+            </div><br>
+
+            <div class = "b3">▶ d</div>
+            <div class = "p2content">
+                Account number <input id = "anum" name="firstname" type="number" required pattern="\d{17}" placeholder="|____|____|____|____|____|____|____|____|____|____|____|____|____|____|____|____|____|">
+            </div><br>
+
+            <div class = "b3">21</div>
+            <div class = "p2content">
+                Amount of line 19 you want applied to your 2019 estimated tax .  . ▶ 
+                <div id="b21">21</div>
+                <input id = "w29" name="firstname" type="number" required pattern="[0-9]">
+                <input id = "w27" name="firstname" type="number" required pattern="[0-9]">
+            </div><br>
+    
+            
+    
+            
+            
+            
+    </div>
+    <br>
+    <div class = "b2 box10">
+        <p id = "font11"><b>Amount You Owe</b></p>
+    </div>
+    <div class = "b2 box11">
+        <div class = "b3">22</div>
+        <div class = "p2content">
+            <b>Amount you owe.</b> Subtract line 18 from line 15. For details on how to pay, see instructions . . .
+        </div>
+        <br>
+
+        <div class = "b3">23</div>
+        <div class = "p2content">
+            Estimated tax penalty (see instructions) . . . . . . . . . . . . . . . . . . .  . . ▶ 
+            <div id="b21">23</div>
+            <input id = "w28" name="firstname" type="number" required pattern="[0-9]">
+            <input id = "w27" name="firstname" type="number" required pattern="[0-9]">
+        </div><br>
+    </div>
+</div>
+
+        
+<br>
+
+        
+
+
+<!-- Refund -->
+
+
+
+        
+    <div id = "box13">
+        <div class = "noBorder">Go to www.irs.gov/Form1040 for instructions and the latest information.</div>
+        <div class = "noBorder" id = "f1040">Form <b>1040</b> (2018)</div>
+    </div>
+        <br><br>
+        <input id = "submit" type="submit" value="Submit">
+    </form>
+
+
+    
+
+</body>
+</html>

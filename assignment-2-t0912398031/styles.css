@@ -1,0 +1,333 @@
+#form {
+  width: 60px;
+  height: 20px;
+  -webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+
+  margin-right: -20px;
+  margin-top: 22px;
+  margin-left: -25px;
+  border: 0px solid black;
+  border-left: 2px solid black;
+  
+}
+#bg1040{
+  background-color: white;
+  font-size: 36pt;
+  font-weight: bold;
+  border-left: 0px;
+  border-right: 0px;
+}
+#font1{
+  
+  font-size: 14pt;
+  font-weight: bold;
+}
+#bg2018{
+  font-size: 36pt;
+  font-weight: bold;
+  border-left: 0px;
+  border-right: 0px;
+}
+
+.height1{
+  height: 60px;
+  border-bottom: 2px solid black;
+  
+}
+
+.column {
+  padding-bottom: 2px;
+  /* display: inline-block; */
+  vertical-align: top;
+  /* width: 50%; */
+  border-bottom: 2px solid black;
+  border-left: 0px;
+}
+
+
+/* general */
+body {
+   /* back ground color */
+  background-color: #DCFFFB;
+}
+
+div{
+  margin-left: -5px;
+  display: inline-block;
+  border: 1px solid black;
+
+  vertical-align: top;
+}
+
+input {
+  /* text field color */
+  color: #DDE4FF;
+  background-color: #DDE4FF;
+}
+
+
+/* line2 */
+
+.words {
+  background-color: white;
+  border: 1px solid black;
+}
+
+.filling{
+  height: 25px;
+}
+
+#fillingWidth{
+  width: 810px;
+}
+#font4{
+  text-align: center;
+}
+
+/* Dependents */
+#font3{
+  font-weight: bold;
+}
+.font2{
+  font-size: 10pt;
+  text-align: center;
+}
+#font5{
+  font-size: 10pt;
+}
+.height2{
+  height: 40px;
+  line-height: 20px;
+}
+.checkbox{
+  width: 171.5px;
+  border-top: 0px;
+  border-left: 2px;
+}
+#checkbox{
+  border-bottom: 0px;
+}
+
+/* sign here */
+#box4{
+  border-right: 0px;
+  height: 115px;
+}
+#font6{
+  font-size: 10pt;
+}
+#arrow{
+  height: 74px;
+}
+.box3{
+  background-color: white;
+  font-size: 10pt;
+  height: 39px;
+  border-right: 2px solid black;
+  border-top: 0px;
+  border-left: 0px;
+
+}
+.column1{
+  display: inline-block;
+  vertical-align: top;
+}
+#boxSigniture{
+  border: 0px ;
+  padding-left: 2px;
+}
+.b1{
+  border-bottom: 0px;
+}
+
+/* Paid prepare */
+#box2{
+  border-right: 0px;
+  height: 82px;
+  border-bottom: 2px  solid black;
+}
+
+#boxPaid{
+  height: 82px;
+  width: 937px;
+  border: 1px solid black;
+  border-left: 0px;
+  border-bottom: 2px  solid black;
+  padding-left: 50px; 
+
+}
+#boxFloat{
+  width: 127px;
+  float: right;
+  border-right: 0px;
+}
+
+.r1{
+  border-right: 0px;
+  border-bottom: 0px;
+}
+
+/* Page2 */
+#page2{
+  width: 1065px;
+}
+.b2{
+  border: 1px solid red;
+}
+.box5{
+  width:120px;
+  height: 600px;
+  padding-left: 5px;
+  background-color: white;
+}
+.box6{
+  width:700px;
+  height: 200px;
+}
+.b3{
+  margin-left: 0px;
+  width: 20px;
+  height: 24px;
+  border: 0px;
+}
+.box7{
+  float: right;
+  width:240px;
+  height: 200px;
+  padding-left: 0px;
+  border-left: 0px;
+}
+.num{
+  margin-left: 0px;
+  width: 20px;
+  height: 24px;
+  border: 1px solid black;
+}
+.m1{
+  margin-left: -4px;
+}
+
+
+.box8{
+  width:200px;
+  height: 200px;
+}
+.box9{
+  width:200px;
+  height: 200px;
+}
+.box10{
+  width:200px;
+  height: 200px;
+}
+.box11{
+  width:200px;
+  height: 200px;
+}
+
+
+#box12{
+  margin-left: 5px;
+}
+#font7{
+  font-size: 11pt;
+}
+.font8{
+  font-size: 11pt;
+}
+
+
+
+#w1{
+  width: 400px;
+}
+#w2{
+  width: 250px;
+}
+#w3{
+  width: 1065px;
+}
+#w4{
+  width: 810px;
+}
+#w5{
+  width: 253px;
+  height: 40px;
+}
+#w6{
+  width: 721px;
+}
+#w7{
+  width: 80px;
+}
+#w8{
+  width: 253px;
+  height: 39px;
+}
+#w9{
+  width: 253px;
+  height: 39px;
+}
+#w10{
+  width: 155px;
+}
+#w11{
+  width: 339px;
+}
+#w12{
+  width: 339px;
+  border-left: 2px;
+  border-top: 2px;
+  border-right: 2px;
+}
+#w13{
+  width: 957px;
+  border-left: 0px;
+}
+#w14{
+  width: 321px;
+}
+#w15{
+  width: 100px;
+}
+#w16{
+  width: 185px;
+}
+#b17{
+  border-right: 0px;
+}
+#w18{
+  width: 290px;
+}
+#w19{
+  width: 376px;
+}
+#w20{
+  width: 286px;
+}
+#w21{
+  width: 838px;
+}
+.w21{
+  width: 35px;
+}
+.w22{
+  width: 70px;
+}
+
+
+
+#h2{
+  height: 20px;
+  
+}
+.h3{
+  /* height: 60px; */
+}
+.h4{
+  height: 60px;
+}

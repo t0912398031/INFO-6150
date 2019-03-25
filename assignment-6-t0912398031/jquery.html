@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="A jQuery plugin wrapper for Cropper.js.">
+
+    <link rel="stylesheet" type="text/css" href="docs/main.css">
+     
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cropper/2.3.3/cropper.js"></script> -->
+    
+<!-- Need to use link instead of script preventing UNCAUGHT SYNTAXERROR: UNEXPECTED TOKEN  -->
+    <!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/cropper/2.3.3/cropper.css"> -->
+
+    
+    <!-- <script type="text/javascript" src="docs/jquery.js" defer></script>  -->
+    <script type="text/javascript" src="docs/main.js" defer></script> 
+
+</head>
+
+<p>
+<!-- Below are a series of inputs which allow file selection and interaction with the cropper api -->
+		<input type="file" id="fileInput" accept="image/*" />
+		<input type="button" id="btnCrop" value="Crop" />
+        <input type="button" id="btnRestore" value="Restore" />
+        <input type="button" id="btnStart" value="Start" />
+</p>
+<!-- <img id="image" src="docs/images/picture.jpg" alt="Picture"> -->
+<div>
+  <canvas id="canvas">
+    Your browser does not support the HTML5 canvas element.
+  </canvas>
+</div>		
+
+<div id="result"></div>
+
+<br />-------------------------------------
+<br /><br /><br />
+
+<div class="wrapper">
+  
+  <canvas id='c1'></canvas>
+  <canvas id='c2'></canvas>
+  <p id="output"></p>
+
+</div>
+    
