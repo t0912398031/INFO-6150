@@ -1,0 +1,12 @@
+{
+	"firstName" : "Pang",
+	"lastName" : "Li",
+	"email" : "t0912398031@gmail.com",
+	"phoneNumber" : "0912398031"
+},
+{
+	"firstName" : "Chung-Yang",
+	"lastName" : "Li",
+	"email" : "li.chun@husky.neu.edu",
+	"phoneNumber" : "5106797777"
+}

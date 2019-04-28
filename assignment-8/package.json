@@ -1,0 +1,27 @@
+{
+  "name": "assignment-8-t0912398031",
+  "version": "1.0.0",
+  "description": "This is an assignment for Asynchronous JavaScript: Address book/Contact app",
+  "main": "index.js",
+  "dependencies": {
+    "@moebius/http-graceful-shutdown": "^1.1.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongodb": "^3.1.13",
+    "mongoose": "^5.4.19"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neu-mis-info6150-spring-2019/assignment-8-t0912398031.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neu-mis-info6150-spring-2019/assignment-8-t0912398031/issues"
+  },
+  "homepage": "https://github.com/neu-mis-info6150-spring-2019/assignment-8-t0912398031#readme"
+}

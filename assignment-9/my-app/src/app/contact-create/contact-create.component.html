@@ -1,0 +1,32 @@
+<h1>
+  Create Contact
+</h1>
+
+  <div class="container">
+    <form (ngSubmit)="processForm()" >
+
+      <div class="field">
+        <input type="text" name="firstName" class="input" placeholder="First Name" [(ngModel)]="firstName">
+      </div>
+
+      <div class="field">
+        <input type="text" name="lastName" class="input" placeholder="Last Name" [(ngModel)]="lastName">
+      </div>
+
+      <div class="field">
+        <input type="email" name="email" class="input" placeholder="abc@email.com" [(ngModel)]="email">
+      </div>
+
+      <div class="field">
+        <input type="text" name="phoneNumber" class="input" placeholder="123456789" [(ngModel)]="phoneNumber">
+      </div>
+
+      <!-- <div class="field">
+        <textarea class="textarea" name="phoneNumber" placeholder="123456789" [(ngModel)]="phoneNumber"></textarea>
+      </div> -->
+    
+      <button type="submit" class="button is-danger is-large">Submit</button>
+    
+    </form>
+  </div>
+<!-- </div> -->
